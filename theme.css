@@ -1,9 +1,9 @@
-#primary_nav_wrap
+#headbar
 {
 	margin-top:15px
 }
 
-#primary_nav_wrap ul
+#headbar ul
 {
 	list-style:none;
 	position:relative;
@@ -12,7 +12,7 @@
 	padding:0
 }
 
-#primary_nav_wrap ul a
+#headbar ul a
 {
 	display:block;
 	color:#333;
@@ -24,7 +24,7 @@
 	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
-#primary_nav_wrap ul li
+#headbar ul li
 {
 	position:relative;
 	float:left;
@@ -32,17 +32,17 @@
 	padding:0
 }
 
-#primary_nav_wrap ul li.current-menu-item
+#headbar ul li.active
 {
 	background:#ddd
 }
 
-#primary_nav_wrap ul li:hover
+#headbar ul li:hover
 {
 	background:#f6f6f6
 }
 
-#primary_nav_wrap ul ul
+#headbar ul ul
 {
 	display:none;
 	position:absolute;
@@ -52,25 +52,25 @@
 	padding:0
 }
 
-#primary_nav_wrap ul ul li
+#headbar ul ul li
 {
 	float:none;
 	width:200px
 }
 
-#primary_nav_wrap ul ul a
+#headbar ul ul a
 {
 	line-height:120%;
 	padding:10px 15px
 }
 
-#primary_nav_wrap ul ul ul
+#headbar ul ul ul
 {
 	top:0;
 	left:100%
 }
 
-#primary_nav_wrap ul li:hover > ul
+#headbar ul li:hover > ul
 {
 	display:block
 }
