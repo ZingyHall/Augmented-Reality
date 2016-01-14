@@ -23,7 +23,7 @@ list-style:none;
 #headbar ul a
 {
 	display:block;
-	color:#333;
+	color: gray;
 	text-decoration:none;
 	font-weight:700;
 	font-size:12px;
@@ -42,12 +42,13 @@ list-style:none;
 
 #headbar ul .active
 {
-	background:#ddd
+	border: 1px solid gray;	
 }
 
 #headbar ul li:hover
 {
-	background:#f6f6f6
+	border: 1px solid gray;	
+	
 }
 
 #headbar ul ul
