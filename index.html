@@ -1,49 +1,233 @@
-<!doctype html>
+body {
+	background-color:lightblue;
+}
+.home{
+background-size: 150%;
+background-repeat: no-repeat;
+background-image: url("http://www.flanderstoday.eu/sites/default/files/webimages/drone_0.jpg");
+}
 
-<html lang="en">
-<head>
- 	<meta charset="utf-8">
+#main {
+	font-size: 100px;
+	margin:0;
+	padding: 10%;
+	font-family: sans-serif;
+}
+
+/*
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+#slider {
+	width: 400px;
+	height: 200px;
+	overflow:hidden;
+	border-radius: 15px;
+}
+#slider figure img { 
+width: 20%; 
+float: left; 
+position: 200px 100px;
+}
+#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+*/
+
+#big {
+	text-align: center;
+}
+
+#headbar
+{
+	margin-top:15px;
+	position: center;
+}
+
+#headbar ul
+{
+	/*
+	background: silver;
+   	background: -webkit-linear-gradient(left, blue , silver);
+   	background: -o-linear-gradient(right, blue, silver);
+  	background: -moz-linear-gradient(right, blue, silver);
+ 	background: linear-gradient(to right, blue , silver);
+ 	*/
+	list-style:none;	
+	position:relative;
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0
+	text-align: center;
+}
+
+#headbar ul a
+{
+	display:block;
+	color: white;
+	text-decoration:none;
+	text-align: center;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#headbar ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+text-align: center;
+
+}
+
+#headbar ul .active
+{
+	border: 1px solid gray;	
+	color: gray;
+}
+
+#headbar ul li:hover
+{
+	color:white;	
 	
-	<link rel="stylesheet" type="text/css" href="theme.css">	
+}
+
+#headbar ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	width:100px;
+	padding:0
+}
+
+#headbar ul ul li
+{
+	float:none;
+}
+
+#headbar ul ul a
+{
+	line-height:120%;
+	padding:10px 15px;
+	color: black; 
+}
+
+#headbar ul li:hover > ul
+{
+	display:block
+}
+
+/* Other Headbar */
+
+#headbar2
+{
+	margin-top:15px;
+	position: center;
+}
+
+#headbar2 ul
+{
+	/*
+	background: white;
+   	background: -webkit-linear-gradient(left, blue , silver);
+   	background: -o-linear-gradient(right, blue, silver);
+  	background: -moz-linear-gradient(right, blue, silver);
+ 	background: linear-gradient(to right, blue , silver);
+ 	*/
+	list-style:none;	
+	position:relative;
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0
+	text-align: center;
+}
+
+#headbar2 ul a
+{
+	display:block;
+	color: white;
+	text-decoration:none;
+	text-align: center;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#headbar2 ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+text-align: center;
+
+}
+
+#headbar2 ul .active
+{
+	border: 1px solid gray;	
+	color: gray;
+}
+
+#headbar2 ul li:hover
+{
+	color:white;	
 	
-	<title>Drones 2016</title>
-  
-	<meta name="description" content=“A page about Drones“>
-	<meta name="author" content="SitePoint">
-	
-	<nav id="headbar2"> 
-		<ul>
-			<li><a class = "active" href = 'index.html'>Home</a></li>
-			<li><a href = 'about.html'>About</a></li>
-			<li><a href = 'uses.html'>Uses</a>
-				<ul>
-					<a href = 'commercial.html'>Commercial</a>
-					<a href = 'educational.html'>Educational</a>
-					<a href = 'research.html'>Research</a>
-				</ul>
-			</li>
-			<li><a href = 'concerns.html'>Concerns</a></li>
-		</ul>
-	</nav>
+}
 
-</head>
+#headbar2 ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	width:100px;
+	padding:0
+}
 
-<body  class = "home">
+#headbar2 ul ul li
+{
+	float:none;
+}
 
-<!--
-	<div id="slider">
-		<figure>
-			<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
-			<img src="http://demosthenes.info/assets/images/taj-mahal.jpg" alt="">
-			<img src="http://demosthenes.info/assets/images/ibiza.jpg" alt="">
-			<img src="http://demosthenes.info/assets/images/ankor-wat.jpg" alt="">
-			<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
-		</figure>
-	</div>
--->
-	<h1 id = "main"> Drones </h1>	
+#headbar2 ul ul a
+{
+	line-height:120%;
+	padding:10px 15px;
+	color: black; 
+}
 
-</body>
+#headbar2 ul li:hover > ul
+{
+	display:block
+}
 
 
-</html>
+
+
