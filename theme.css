@@ -63,6 +63,7 @@ position: 200px 100px;
   	background: -moz-linear-gradient(right, blue, silver);
  	background: linear-gradient(to right, blue , silver);
 list-style:none;	
+border-radius: 15px;
 	position:relative;
 	float:left;
 	width:100%;
@@ -131,4 +132,6 @@ list-style:none;
 {
 	display:block
 }
+
+
 
