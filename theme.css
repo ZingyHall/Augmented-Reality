@@ -26,14 +26,14 @@
     background-color: gray;
 }
 
-body {
+#content {
         margin: 0;
         padding: 0;
         color: #001133;
         font-family:Verdana,"Arial", Times, serif;
         line-height: 170%
         text-align: justify;
-        float: center;
+        float: justify;
 }
 
 
