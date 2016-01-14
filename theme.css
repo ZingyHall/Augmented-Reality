@@ -1,86 +1,76 @@
-#headbar ul {
-    background-color: black;
-    list-style-type: none;
-    margin-left: 220px;
-    padding: 0;
-    overflow: hidden;
-    font-family: Verdana;
+#primary_nav_wrap
+{
+	margin-top:15px
 }
 
-#headbar li {
-    display: block;
-    float: left;
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
 }
 
-#headbar li a {
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
-#headbar li a:hover {
-    background-color: gray;
-    transition: .3s background-color;
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
 }
 
-#headbar a.active {
-    background-color: gray;
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
 }
 
-#content {
-        margin: 0;
-        padding-left: 230px;
-        padding-right: 230px;
-        color: black;
-        font-family:Verdana,"Arial", Times, serif;
-        line-height: 170%
-        text-align: justify;
-        float: justify;
+#primary_nav_wrap ul li:hover
+{
+	background:#f6f6f6
 }
 
-
-#drop {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
 }
 
-/* The container <div> - needed to position the dropdown content */
-#drop {
-    position: relative;
-    display: inline-block;
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
 }
 
-/* Dropdown Content (Hidden by Default) */
-#drop {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
 }
 
-/* Links inside the dropdown */
-#drop a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
 }
 
-/* Change color of dropdown links on hover */
-.#drop a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-#drop:hover {
-    display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-#drop:hover {
-    background-color: #3e8e41;
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
 }
