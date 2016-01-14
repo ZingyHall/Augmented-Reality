@@ -8,6 +8,7 @@
 }
 
 #headbar li {
+    display: block;
     float: left;
 }
 
@@ -51,7 +52,7 @@
 #sidebar li a {
     display: block;
     color: #000;
-    padding: 8px 0 8px 16px;
+    padding: 8px 0 8px 0px;
     text-decoration: none;
 }
 
