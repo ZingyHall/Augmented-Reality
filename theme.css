@@ -1,6 +1,7 @@
 #headbar
 {
-	margin-top:15px
+	margin-top:15px;
+	position: center;
 }
 
 #headbar ul
