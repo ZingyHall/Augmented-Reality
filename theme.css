@@ -1,19 +1,12 @@
-#content 
-{
-	font-family:verdana;
-}
-
-#content .home {
-	background-color: gray;
-}
-
-#intro .home {
-	
-}
-
-body .home {
+body {
 background-image: url(“http://ichef.bbci.co.uk/news/1024/media/images/79596000/jpg/_79596772_drone.jpg”);
-background-attachment: fixed;
+}
+
+h1 {
+	font-size: 100px;
+	margin:0;
+	padding: 30%;
+	font-family: sans-serif;
 }
 
 /*
