@@ -111,19 +111,20 @@ list-style:none;
 	top:100%;
 	left:0;
 	background:#fff;
+	width:350px;
 	padding:0
 }
 
 #headbar ul ul li
 {
 	float:none;
-	width:350px
 }
 
 #headbar ul ul a
 {
 	line-height:120%;
 	padding:10px 15px
+width:350px;
 }
 
 #headbar ul li:hover > ul
