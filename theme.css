@@ -29,8 +29,8 @@
 
 #content {
         margin: 0;
-        padding: 230px;
-        padding-top: 0px;
+        padding-left: 230px;
+        padding-right: 230px;
         color: #001133;
         font-family:Verdana,"Arial", Times, serif;
         line-height: 170%
