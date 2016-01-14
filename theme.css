@@ -1,7 +1,7 @@
 #headbar ul {
     background-color: black;
     list-style-type: none;
-    margin-left: 250px;
+    margin-left: 220px;
     padding: 0;
     overflow: hidden;
 }
@@ -47,6 +47,6 @@
     transition: .3s background-color;
 }
 
-body {
-    margin-left: 250;
+p {
+    margin-left: 220;
 }
