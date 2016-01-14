@@ -12,7 +12,7 @@ background-image: url("http://www.flanderstoday.eu/sites/default/files/webimages
 	color: white;
 	margin:0;
 	padding: 10%;
-	font-family: sans-serif;
+	font-family: verdana, sans-serif;
 }
 
 /*
@@ -51,6 +51,8 @@ position: 200px 100px;
 
 #big {
 	text-align: center;
+	font-size: 100px;
+	font-family: CenturyGothic, Verdana;
 }
 
 #headbar
