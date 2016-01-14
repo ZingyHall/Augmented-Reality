@@ -1,9 +1,6 @@
 ul {
+    background-color: #73858E;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
 }
 
 li {
@@ -11,14 +8,16 @@ li {
 }
 
 li a {
-    display: block;
-    color: white;
+    color: blue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: #f5f5dc;
+}
+
+a:active {
+    background-color: #f5f5dc;
 }
