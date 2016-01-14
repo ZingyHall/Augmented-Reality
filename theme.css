@@ -19,9 +19,10 @@
 
 #headbar li a:hover {
     background-color: gray;
+    transition: .3s background-color;
 }
 
-.active {
+#headbar a.active {
     background-color: gray;
 }
 
