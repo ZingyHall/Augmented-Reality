@@ -60,3 +60,8 @@
     color: white;
     transition: .3s background-color;
 }
+
+#sidebar a.active {
+    background-color: #555;
+    color:white;
+}
