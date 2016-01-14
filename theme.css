@@ -1,11 +1,13 @@
 body {
-background-image: url(“http://ichef.bbci.co.uk/news/1024/media/images/79596000/jpg/_79596772_drone.jpg”);
+background-size: 150%;
+background-repeat: no-repeat;
+background-image: url("http://www.flanderstoday.eu/sites/default/files/webimages/drone_0.jpg");
 }
 
 #main {
 	font-size: 100px;
 	margin:0;
-	padding: 50%;
+	padding: 10%;
 	font-family: sans-serif;
 }
 
