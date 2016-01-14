@@ -1,7 +1,7 @@
 #headbar ul {
     background-color: black;
     list-style-type: none;
-    margin: 200px;
+    margin: 250px;
     padding: 0;
     overflow: hidden;
 }
@@ -45,4 +45,8 @@
     background-color: #555;
     color: white;
      transition: .3s background-color;
+}
+
+body {
+    margin: 250;
 }
