@@ -82,6 +82,10 @@
 	font-family:verdana;
 }
 
+#content .home {
+	background-color: gray;
+}
+
 @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
