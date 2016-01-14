@@ -29,12 +29,24 @@
 body {
         margin: 0;
         padding: 0;
-        background-position: left 230px top 25px;
         color: #001133;
         font-family:Verdana,"Arial", Times, serif;
         line-height: 170%
         text-align: justify;
 }
+
+p {
+        width: 960px;
+        margin-top: 0px;
+        padding: 20px;
+        background: transparent url(images/white.png) repeat scroll top left;
+        background-position: left -0;
+        -moz-border-radius: 1px;
+        -webkit-border-radius: 1px;
+        border-top-left-radius: 1px;
+        clear:both;
+}
+
 
 #sidebar ul {
     list-style-type: none;
