@@ -139,6 +139,95 @@ text-align: center;
 	display:block
 }
 
+/* Other Headbar */
+
+#headbar2
+{
+	margin-top:15px;
+	position: center;
+}
+
+#headbar2 ul
+{
+	/*
+	background: white;
+   	background: -webkit-linear-gradient(left, blue , silver);
+   	background: -o-linear-gradient(right, blue, silver);
+  	background: -moz-linear-gradient(right, blue, silver);
+ 	background: linear-gradient(to right, blue , silver);
+ 	*/
+	list-style:none;	
+	position:relative;
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0
+	text-align: center;
+}
+
+#headbar2 ul a
+{
+	display:block;
+	color: white;
+	text-decoration:none;
+	text-align: center;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#headbar2 ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+text-align: center;
+
+}
+
+#headbar2 ul .active
+{
+	border: 1px solid gray;	
+	color: gray;
+}
+
+#headbar2 ul li:hover
+{
+	color:white;	
+	
+}
+
+#headbar2 ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	width:100px;
+	padding:0
+}
+
+#headbar2 ul ul li
+{
+	float:none;
+}
+
+#headbar2 ul ul a
+{
+	line-height:120%;
+	padding:10px 15px;
+	color: black; 
+}
+
+#headbar2 ul li:hover > ul
+{
+	display:block
+}
+
 
 
 
