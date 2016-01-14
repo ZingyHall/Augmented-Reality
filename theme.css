@@ -1,5 +1,5 @@
 body {
-	background-color:gray;
+	background-color:lightblue;
 }
 .home{
 background-size: 150%;
@@ -61,7 +61,7 @@ position: 200px 100px;
 #headbar ul
 {
 	/*
-	background: white;
+	background: silver;
    	background: -webkit-linear-gradient(left, blue , silver);
    	background: -o-linear-gradient(right, blue, silver);
   	background: -moz-linear-gradient(right, blue, silver);
