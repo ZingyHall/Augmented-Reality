@@ -64,7 +64,7 @@ position: 200px 100px;
  	background: linear-gradient(to right, blue , silver);
 list-style:none;	
 	position:relative;
-	float:left;
+	float:center;
 	width:100%;
 	margin:0;
 	padding:0
@@ -76,7 +76,7 @@ list-style:none;
 	display:block;
 	color: white;
 	text-decoration:none;
-	text-align: center;
+	float: center;
 	font-weight:700;
 	font-size:12px;
 	line-height:32px;
