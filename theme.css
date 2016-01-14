@@ -1,7 +1,7 @@
 #headbar ul {
     background-color: black;
     list-style-type: none;
-    margin: 250px;
+    margin-left: 250px;
     padding: 0;
     overflow: hidden;
 }
@@ -44,9 +44,9 @@
 #sidebar li a:hover {
     background-color: #555;
     color: white;
-     transition: .3s background-color;
+    transition: .3s background-color;
 }
 
 body {
-    margin: 250;
+    margin-left: 250;
 }
