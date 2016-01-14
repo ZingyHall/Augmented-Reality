@@ -23,7 +23,6 @@
 95% { left: -300%; }
 100% { left: -400%; }
 }
-
 #slider {
 	width: 400px;
 	height: 200px;
@@ -44,7 +43,6 @@ position: 200px 100px;
   font-size: 0;
   animation: 30s slidy infinite; 
 }
-
 */
 
 #big {
@@ -127,13 +125,9 @@ list-style:none;
 	line-height:120%;
 	padding:10px 15px
 width:350px;
-color: black;
 }
 
 #headbar ul li:hover > ul
 {
 	display:block
 }
-
-
-
