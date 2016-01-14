@@ -129,7 +129,9 @@ list-style:none;
 
 #headbar ul li:hover > ul
 {
-	display:block
+display:block
+border: 1px solid gray;	
+
 }
 
 
