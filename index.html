@@ -1,57 +1,120 @@
-<!doctype html>
+#headbar
+{
+	margin-top:15px
+}
 
-<html lang="en">
-<head>
- 	<meta charset="utf-8">
-	
-	<link rel="stylesheet" type="text/css" href="theme.css">	
-	
-	<title>Drones 2016</title>
-  
-	<meta name="description" content=“A page about Drones“>
-	<meta name="author" content="SitePoint">
-	
-	<h1 id = "big"> Drones </h1>
-	
-	<nav id="headbar"> 
-		<ul>
-			<li><a class = "active" href = 'index.html'>Home</a></li>
-			<li><a href = 'about.html'>About</a></li>
-			<li><a href = 'uses.html'>Uses</a>
-				<ul>
-					<a href = 'commercial.html'>Commercial</a>
-					<a href = 'educational.html'>Educational</a>
-					<a href = 'research.html'>Research</a>
-				</ul>
-			</li>
-			<li><a href = 'concerns.html'>Concerns</a></li>
-		</ul>
-	</nav>
-	
+#headbar ul
+{
+	list-style:none;
+	border: 1px solid #e7e7e7;
+	position:relative;
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0
+}
 
-</head>
+#headbar ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
 
-<body>
-	<div id="slider">
-		<figure>
-			<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
-			<img src="http://demosthenes.info/assets/images/taj-mahal.jpg" alt="">
-			<img src="http://demosthenes.info/assets/images/ibiza.jpg" alt="">
-			<img src="http://demosthenes.info/assets/images/ankor-wat.jpg" alt="">
-			<img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
-		</figure>
-	</div>
+#headbar ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
 
-	<div id = "content">
-	
-	<h1> Introduction </h1>
-	<p>
-		An unmanned aerial vehicle (UAV), commonly known as a drone and also referred by several other names, is an aircraft without a human pilot aboard. The flight of UAVs may be controlled either autonomously by onboard computers or by the remote control of a pilot on the ground or in another vehicle. 
-	</p>
-	
-	</div>
+#headbar ul .active
+{
+	background:#ddd
+}
 
-</body>
+#headbar ul li:hover
+{
+	background:#f6f6f6
+}
+
+#headbar ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#headbar ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#headbar ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#headbar ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#headbar ul li:hover > ul
+{
+	display:block
+}
+
+#content 
+{
+	font-family:verdana;
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+#slider {
+	width: 400px;
+	height: 200px;
+	overflow:hidden;
+	border-radius: 15px;
+}
+#slider figure img { 
+width: 20%; 
+float: left; 
+position: 200px 100px;
+}
+#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
 
 
-</html>
+#big {
+}
