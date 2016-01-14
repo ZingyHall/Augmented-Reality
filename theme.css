@@ -57,13 +57,14 @@ position: 200px 100px;
 
 #headbar ul
 {
+	/*
 	background: white;
    	background: -webkit-linear-gradient(left, blue , silver);
    	background: -o-linear-gradient(right, blue, silver);
   	background: -moz-linear-gradient(right, blue, silver);
  	background: linear-gradient(to right, blue , silver);
-list-style:none;	
-border-radius: 15px;
+ 	*/
+	list-style:none;	
 	position:relative;
 	float:left;
 	width:100%;
