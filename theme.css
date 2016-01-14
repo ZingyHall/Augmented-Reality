@@ -11,6 +11,11 @@
 	
 }
 
+body .home {
+background-image: url(“http://ichef.bbci.co.uk/news/1024/media/images/79596000/jpg/_79596772_drone.jpg”);
+background-attachment: fixed;
+}
+
 /*
 @keyframes slidy {
 0% { left: 0%; }
@@ -134,6 +139,7 @@ text-align: center;
 {
 	display:block
 }
+
 
 
 
