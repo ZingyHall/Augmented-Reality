@@ -49,6 +49,10 @@
     font-family: Verdana;
 }
 
+#sidebar {
+    width:200px;
+}
+
 #sidebar li a {
     display: block;
     color: #000;
