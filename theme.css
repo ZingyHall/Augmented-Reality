@@ -2,7 +2,7 @@ body {
 	background-color:lightblue;
 }
 .home{
-background-size: 150%;
+background-size: 100%;
 background-repeat: no-repeat;
 background-image: url("http://www.flanderstoday.eu/sites/default/files/webimages/drone_0.jpg");
 }
