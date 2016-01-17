@@ -4,14 +4,16 @@ body {
 .home{
 background-size: 100%;
 background-repeat: no-repeat;
-background-image: url("http://www.flanderstoday.eu/sites/default/files/webimages/drone_0.jpg");
+background-image: url("http://godrones.net/wp-content/uploads/2015/11/background_drones.jpg");
 }
 
 #main {
 	font-size: 100px;
 	color: white;
-	margin:0;
-	padding: 10%;
+	margin-top: 80px;
+	margin-left: 50px;
+	padding-top: 50px;
+	padding-left: 150px;
 	font-family: sans-serif;
 }
 
@@ -192,14 +194,14 @@ text-align: center;
 
 #headbar2 ul .active
 {
-	border: 1px solid gray;	
-	color: gray;
+	border: 1px solid black;	
+	color: black;
 }
 
 #headbar2 ul a:hover
 {
-	color:gray;	
-	
+	border: 1px solid black;	
+	color: black;
 }
 
 #headbar2 ul ul
