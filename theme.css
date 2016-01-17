@@ -7,6 +7,15 @@ background-repeat: no-repeat;
 background-image: url("http://godrones.net/wp-content/uploads/2015/11/background_drones.jpg");
 }
 
+#info {
+	padding:5%;
+	margin-top: 150px;
+	margin-left:50px;
+	height: 100%;
+	overflow: hidden;
+	background-color:#e8f4f8;
+}
+
 #main {
 	font-size: 200px;
 	color: white;
