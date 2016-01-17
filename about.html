@@ -1,45 +1,245 @@
-<!doctype html>
+body {
+	background-color:lightblue;
+}
+.home{
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url("http://godrones.net/wp-content/uploads/2015/11/background_drones.jpg");
+}
 
-<html lang="en">
+#info {
+	padding:5%;
+	margin-top: 150px;
+	margin-left:50px;
+	height: 100%;
+	overflow: hidden;
+	background-color:#e8f4f8;
+}
 
-<head>
-	<link rel="stylesheet" type="text/css" href="theme.css">
+#main {
+	font-size: 200px;
+	color: white;
+	margin-top: 80px;
+	margin-left: 50px;
+	padding-top: 7%;
+	padding-left: 20%;
+	font-family: sans-serif;
+}
+
+/*
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+#slider {
+	width: 400px;
+	height: 200px;
+	overflow:hidden;
+	border-radius: 15px;
+}
+#slider figure img { 
+width: 20%; 
+float: left; 
+position: 200px 100px;
+}
+#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+*/
+
+#big {
+	text-align: center;
+	font-size: 100px;
+	font-family: CenturyGothic, Verdana;
+}
+
+#headbar
+{
+	margin-top:15px;
+	position: center;
+}
+
+#headbar ul
+{
+	/*
+	background: silver;
+   	background: -webkit-linear-gradient(left, blue , silver);
+   	background: -o-linear-gradient(right, blue, silver);
+  	background: -moz-linear-gradient(right, blue, silver);
+ 	background: linear-gradient(to right, blue , silver);
+ 	*/
+	list-style:none;	
+	position:relative;
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0
+	text-align: center;
+}
+
+#headbar ul a
+{
+	display:block;
+	color: white;
+	text-decoration:none;
+	text-align: center;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#headbar ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+text-align: center;
+
+}
+
+#headbar ul .active
+{
+	border: 1px solid gray;	
+	color: gray;
+}
+
+#headbar ul a:hover
+{
+	color:gray;	
 	
-	<h1 id = "big"> Drones </h1>
-	
-	<nav id="headbar"> 
-		<ul>
-			<li><a href = 'index.html'>Home</a></li>
-			<li><a class = "active" href = 'about.html'>About</a></li>
-			<li><a href = 'uses.html'>Uses</a>
-				<ul>
-					<a href = 'commercial.html'>Commercial</a>
-					<a href = 'educational.html'>Educational</a>
-					<a href = 'research.html'>Research</a>
-				</ul>
-			</li>
-			<li><a href = 'concerns.html'>Concerns</a>
-				<ul>
-					<a href = 'safety.html'>Safety</a>
-					<a href = 'privacy.html'>Privacy</a>
-				</ul>
-			</li>
-		</ul>
-	</nav>
-	
-</head>
+}
 
-<body>
-	<div id = "info">
-	<p> An unmanned aerial vehicle (UAV), commonly known as a drone and also referred by several other names, is an aircraft without a human pilot aboard. The flight of UAVs may be controlled either autonomously by onboard computers or by the remote control of a pilot on the ground or in another vehicle. The ICAO classifies unmanned aircraft into two types under Circular 328 AN/190:
-	<ul>
-		<li>Autonomous aircraft – currently considered unsuitable for regulation due to legal and liability issues</li>
-		<li>Remotely piloted aircraft – subject to civil regulation under ICAO and under the relevant national aviation authority.</li>
-	</ul>
-	The typical launch and recovery method function of an automatic system or an external operator on the ground.[1] Historically, UAVs were simple remotely piloted aircraft, but autonomous control is increasingly being employed.
-	</p>
-	</div>
-</body>
+#headbar ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	width:100px;
+	padding:0
+}
+
+#headbar ul ul li
+{
+	float:none;
+}
+
+#headbar ul ul a
+{
+	line-height:120%;
+	padding:10px 15px;
+	color: white; 
+}
+
+#headbar ul li:hover > ul
+{
+	display:block
+}
+
+/* Other Headbar */
+
+#headbar2
+{
+	margin-top:15px;
+	position: center;
+}
+
+#headbar2 ul
+{
+	/*
+	background: white;
+   	background: -webkit-linear-gradient(left, blue , silver);
+   	background: -o-linear-gradient(right, blue, silver);
+  	background: -moz-linear-gradient(right, blue, silver);
+ 	background: linear-gradient(to right, blue , silver);
+ 	*/
+	list-style:none;	
+	position:relative;
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0
+	text-align: center;
+}
+
+#headbar2 ul a
+{
+	display:block;
+	color: white;
+	text-decoration:none;
+	text-align: center;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#headbar2 ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+text-align: center;
+
+}
+
+#headbar2 ul .active
+{
+	border: 1px solid black;	
+	color: black;
+}
+
+#headbar2 ul a:hover
+{
+	border: 1px solid black;	
+	color: black;
+}
+
+#headbar2 ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	width:100px;
+	padding:0
+}
+
+#headbar2 ul ul li
+{
+	float:none;
+}
+
+#headbar2 ul ul a
+{
+	line-height:120%;
+	padding:10px 15px;
+	color: white; 
+}
+
+#headbar2 ul li:hover > ul
+{
+	display:block
+}
 
 
-</html>
+
+
