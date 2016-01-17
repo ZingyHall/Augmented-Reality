@@ -1,5 +1,6 @@
 body {
 	background-color:lightblue;
+	width:90%;
 }
 .home{
 background-size: 100%;
@@ -10,7 +11,7 @@ background-image: url("http://godrones.net/wp-content/uploads/2015/11/background
 #info {
 	padding:5%;
 	margin-top: 150px;
-	margin-left:50px;
+	width: 100%;
 	height: 100%;
 	overflow: hidden;
 	background-color:#e8f4f8;
@@ -63,7 +64,6 @@ position: 200px 100px;
 #big {
 	text-align: center;
 	font-size: 100px;
-	color: #111517;
 	font-family: CenturyGothic, Verdana;
 }
 
@@ -87,7 +87,7 @@ position: 200px 100px;
 	float:left;
 	width:100%;
 	margin:0;
-	padding:0
+	padding:0;
 	text-align: center;
 }
 
