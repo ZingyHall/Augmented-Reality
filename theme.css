@@ -63,6 +63,7 @@ position: 200px 100px;
 #big {
 	text-align: center;
 	font-size: 100px;
+	color: #111517;
 	font-family: CenturyGothic, Verdana;
 }
 
@@ -121,8 +122,8 @@ text-align: center;
 
 #headbar ul a:hover
 {
-	color:gray;	
-	
+	border: 1px solid gray;	
+	color: gray;
 }
 
 #headbar ul ul
