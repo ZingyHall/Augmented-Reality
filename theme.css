@@ -5,7 +5,7 @@ body {
 .home{
 background-size: 100%;
 background-repeat: no-repeat;
-background-image: url("http://tlists.com/wp-content/uploads/2016/03/augmented-reality.jpg");
+background-image: url("http://www.hceda.org/media/22662719/background-ipad.jpg");
 }
 
 #info {
@@ -97,7 +97,7 @@ position: 200px 100px;
 #headbar ul a
 {
 	display:block;
-	color: white;
+	color: black;
 	text-decoration:none;
 	text-align: center;
 	font-weight:700;
@@ -125,8 +125,8 @@ text-align: center;
 
 #headbar ul a:hover
 {
-	border: 1px solid white;	
-	color: white;
+	border: 1px solid gray;	
+	color: gray;
 }
 
 #headbar ul ul
@@ -148,7 +148,7 @@ text-align: center;
 {
 	line-height:120%;
 	padding:10px 15px;
-	color: white; 
+	color: black; 
 }
 
 #headbar ul li:hover > ul
@@ -185,7 +185,7 @@ text-align: center;
 #headbar2 ul a
 {
 	display:block;
-	color: white;
+	color: black;
 	text-decoration:none;
 	text-align: center;
 	font-weight:700;
@@ -213,8 +213,8 @@ text-align: center;
 
 #headbar2 ul a:hover
 {
-	border: 1px solid white;	
-	color: white;
+	border: 1px solid gray;	
+	color: gray;
 }
 
 #headbar2 ul ul
@@ -236,7 +236,7 @@ text-align: center;
 {
 	line-height:120%;
 	padding:10px 15px;
-	color: white; 
+	color: black; 
 }
 
 #headbar2 ul li:hover > ul
