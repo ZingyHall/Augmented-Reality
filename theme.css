@@ -11,7 +11,7 @@ background-image: url("http://www.hceda.org/media/22662719/background-ipad.jpg")
 #info {
 	padding:5%;
 	color:#d9d9d9;
-	margin-top: 110px;
+	margin-top: 119px;
 	margin-left:50px;
 	width: 90%;
 	overflow: hidden;
@@ -66,6 +66,7 @@ position: 200px 100px;
 #big {
 	text-align: center;
 	margin-left: 100px;
+	margin-top:100;
 	font-size: 100px;
 	color: #111517;
 	font-family: CenturyGothic, Verdana;
@@ -248,3 +249,82 @@ text-align: center;
 
 
 
+#headbar3 ul
+{
+	/*
+	background: silver;
+   	background: -webkit-linear-gradient(left, blue , silver);
+   	background: -o-linear-gradient(right, blue, silver);
+  	background: -moz-linear-gradient(right, blue, silver);
+ 	background: linear-gradient(to right, blue , silver);
+ 	*/
+	list-style:none;	
+	position:relative;
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0
+	text-align: center;
+}
+
+#headbar3 ul a
+{
+	display:block;
+	color: black;
+	text-decoration:none;
+	text-align: center;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#headbar3 ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+text-align: center;
+
+}
+
+#headbar3 ul .active
+{
+	border: 1px solid gray;	
+	color: gray;
+}
+
+#headbar3 ul a:hover
+{
+	border: 1px solid gray;	
+	color: gray;
+}
+
+#headbar3 ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	width:100px;
+	padding:0
+}
+
+#headbar3 ul ul li
+{
+	float:none;
+}
+
+#headbar ul ul a
+{
+	line-height:120%;
+	padding:10px 15px;
+	color: black; 
+}
+
+#headbar3 ul li:hover > ul
+{
+	display:block
+}
