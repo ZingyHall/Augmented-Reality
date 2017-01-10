@@ -10,7 +10,7 @@ background-image: url("http://www.hceda.org/media/22662719/background-ipad.jpg")
 
 #info {
 	padding:5%;
-	color: white;
+	color: black;
 	margin-top: 150px;
 	margin-left:50px;
 	width: 90%;
@@ -21,7 +21,7 @@ background-image: url("http://www.hceda.org/media/22662719/background-ipad.jpg")
 
 #main {
 	font-size: 100px;
-	color: white;
+	color: black;
 	margin-top: 80px;
 	margin-left: 50px;
 	padding-top: 10%;
