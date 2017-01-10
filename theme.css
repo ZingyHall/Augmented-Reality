@@ -124,8 +124,8 @@ text-align: center;
 
 #headbar ul a:hover
 {
-	border: 1px solid gray;	
-	color: gray;
+	border: 1px solid white;	
+	color: white;
 }
 
 #headbar ul ul
@@ -206,14 +206,14 @@ text-align: center;
 
 #headbar2 ul .active
 {
-	border: 1px solid black;	
-	color: black;
+	border: 1px solid gray;	
+	color: gray;
 }
 
 #headbar2 ul a:hover
 {
-	border: 1px solid black;	
-	color: black;
+	border: 1px solid white;	
+	color: white;
 }
 
 #headbar2 ul ul
