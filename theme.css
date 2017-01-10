@@ -11,7 +11,7 @@ background-image: url("http://www.hceda.org/media/22662719/background-ipad.jpg")
 #info {
 	padding:2%;
 	color:#d9d9d9;
-	margin-top:100px;
+	margin-top:0px;
 	margin-left: 40px;
 	width: 90%;
 	overflow: hidden;
@@ -22,7 +22,7 @@ background-image: url("http://www.hceda.org/media/22662719/background-ipad.jpg")
 #main {
 	font-size: 100px;
 	color: black;
-	margin-top: 80px;
+	margin-top: 40px;
 	margin-left: 50px;
 	padding-top: 5%;
 	padding-left: 15%;
@@ -65,123 +65,12 @@ position: 200px 100px;
 
 #big {
 	text-align: center;
-	margin-left: 100px;
-	margin-top:100;
+	position:center;
+	margin-bottom: 40px;
+	margin-top: 130px;
 	font-size: 100px;
 	color: #111517;
 	font-family: CenturyGothic, Verdana;
-}
-
-#headbar
-{
-	margin-top:15px;
-	position: center;
-}
-
-#headbar ul
-{
-	/*
-	background: silver;
-   	background: -webkit-linear-gradient(left, blue , silver);
-   	background: -o-linear-gradient(right, blue, silver);
-  	background: -moz-linear-gradient(right, blue, silver);
- 	background: linear-gradient(to right, blue , silver);
- 	*/
-	list-style:none;	
-	position:relative;
-	float:left;
-	width:100%;
-	margin:0;
-	padding:0
-	text-align: center;
-}
-
-#headbar ul a
-{
-	display:block;
-	color: black;
-	text-decoration:none;
-	text-align: center;
-	font-weight:700;
-	font-size:12px;
-	line-height:32px;
-	padding:0 15px;
-	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
-}
-
-#headbar ul li
-{
-	position:relative;
-	float:left;
-	margin:0;
-	padding:0
-text-align: center;
-
-}
-
-#headbar ul .active
-{
-	border: 1px solid gray;	
-	color: gray;
-}
-
-#headbar ul a:hover
-{
-	border: 1px solid gray;	
-	color: gray;
-}
-
-#headbar ul ul
-{
-	display:none;
-	position:absolute;
-	top:100%;
-	left:0;
-	width:100px;
-	padding:0
-}
-
-#headbar ul ul li
-{
-	float:none;
-}
-
-#headbar ul ul a
-{
-	line-height:120%;
-	padding:10px 15px;
-	color: black; 
-}
-
-#headbar ul li:hover > ul
-{
-	display:block
-}
-
-/* Other Headbar */
-
-#headbar2
-{
-	margin-top:15px;
-	position: center;
-}
-
-#headbar2 ul
-{
-	/*
-	background: white;
-   	background: -webkit-linear-gradient(left, blue , silver);
-   	background: -o-linear-gradient(right, blue, silver);
-  	background: -moz-linear-gradient(right, blue, silver);
- 	background: linear-gradient(to right, blue , silver);
- 	*/
-	list-style:none;	
-	position:relative;
-	float:left;
-	width:100%;
-	margin:0;
-	padding:0
-	text-align: center;
 }
 
 #headbar2 ul a
@@ -249,18 +138,18 @@ text-align: center;
 
 
 
-#headbar3 ul
+#headbar ul
 {
 	list-style:none;	
 	position:absolute;
 	float:relative;
 	width:100%;
-	margin-top:-90px;
+	margin-top:-250px;
 	padding:0
 	text-align: center;
 }
 
-#headbar3 ul a
+#headbar ul a
 {
 	display:block;
 	color: lightgray;
@@ -273,7 +162,7 @@ text-align: center;
 	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
-#headbar3 ul li
+#headbar ul li
 {
 	position:relative;
 	float:left;
@@ -283,29 +172,29 @@ text-align: center;
 
 }
 
-#headbar3 ul .active
+#headbar ul .active
 {
 	border: 1px solid gray;	
 	color: gray;
 }
 
-#headbar3 ul a:hover
+#headbar ul a:hover
 {
 	border: 1px solid gray;	
 	color: white;
 }
 
-#headbar3 ul ul
+#headbar ul ul
 {
 	display:none;
 	position:absolute;
-	top:370%;
+	top:844%;
 	left:0;
 	width:100px;
 	padding:0
 }
 
-#headbar3 ul ul li
+#headbar ul ul li
 {
 	float:none;
 }
@@ -314,10 +203,10 @@ text-align: center;
 {
 	line-height:120%;
 	padding:10px 15px;
-	color: black; 
+	color: lightgray; 
 }
 
-#headbar3 ul li:hover > ul
+#headbar ul li:hover > ul
 {
-	display:block
+	display:block;
 }
