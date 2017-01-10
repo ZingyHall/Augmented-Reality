@@ -23,7 +23,7 @@ background-image: url("http://www.hceda.org/media/22662719/background-ipad.jpg")
 	color: black;
 	margin-top: 80px;
 	margin-left: 50px;
-	padding-top: 5%;
+	padding-top: 6%;
 	padding-left: 15%;
 	font-family: sans-serif;
 }
@@ -71,7 +71,7 @@ position: 200px 100px;
 
 #headbar
 {
-	margin-top:15px;
+	margin-top:10px;
 	position: center;
 }
 
@@ -89,7 +89,7 @@ position: 200px 100px;
 	float:left;
 	width:100%;
 	margin:0;
-	padding:0
+	padding:0;
 	text-align: center;
 }
 
