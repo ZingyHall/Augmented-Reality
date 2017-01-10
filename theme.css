@@ -75,6 +75,7 @@ position: 200px 100px;
 
 #headbar2 ul a
 {
+	list-style:none;
 	display:block;
 	color: black;
 	text-decoration:none;
