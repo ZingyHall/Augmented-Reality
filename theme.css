@@ -10,12 +10,13 @@ background-image: url("http://www.hceda.org/media/22662719/background-ipad.jpg")
 
 #info {
 	padding:5%;
-	color: black;
-	margin-top: 150px;
+	color:#d9d9d9;
+	margin-top: 110px;
 	margin-left:50px;
 	width: 90%;
 	overflow: hidden;
 	font-family: verdana;
+	background-color:rgba(0, 0, 0, 0.5);
 }
 
 #main {
@@ -23,7 +24,7 @@ background-image: url("http://www.hceda.org/media/22662719/background-ipad.jpg")
 	color: black;
 	margin-top: 80px;
 	margin-left: 50px;
-	padding-top: 6%;
+	padding-top: 5%;
 	padding-left: 15%;
 	font-family: sans-serif;
 }
@@ -64,6 +65,7 @@ position: 200px 100px;
 
 #big {
 	text-align: center;
+	margin-left: 100px;
 	font-size: 100px;
 	color: #111517;
 	font-family: CenturyGothic, Verdana;
@@ -71,7 +73,7 @@ position: 200px 100px;
 
 #headbar
 {
-	margin-top:10px;
+	margin-top:15px;
 	position: center;
 }
 
@@ -89,7 +91,7 @@ position: 200px 100px;
 	float:left;
 	width:100%;
 	margin:0;
-	padding:0;
+	padding:0
 	text-align: center;
 }
 
