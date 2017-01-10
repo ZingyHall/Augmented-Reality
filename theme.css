@@ -10,11 +10,12 @@ background-image: url("http://tlists.com/wp-content/uploads/2016/03/augmented-re
 
 #info {
 	padding:5%;
+	color: white;
 	margin-top: 150px;
 	margin-left:50px;
 	width: 90%;
 	overflow: hidden;
-	background-color:#e8f4f8;
+	background-color:gray;
 	font-family: verdana;
 }
 
