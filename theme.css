@@ -1,5 +1,5 @@
 body {
-	background-image: url("http://media.gettyimages.com/videos/blue-digital-data-background-video-id472819473?s=640x640");
+	background-image: url("https://u.jimcdn.com/www21/o/se7bb803822a2317a/userlayout/img/background2-large.jpg?t=1364503428");
 	width: 100%;
 }
 .home{
@@ -16,7 +16,7 @@ background-image: url("http://www.hceda.org/media/22662719/background-ipad.jpg")
 	width: 90%;
 	overflow: hidden;
 	font-family: verdana;
-	background-color:rgba(0, 0, 0, 0.5);
+	background-color:rgba(0, 0, 0, 0.3);
 }
 
 #main {
@@ -66,8 +66,6 @@ position: 200px 100px;
 #big {
 	text-align: center;
 	position:center;
-	margin-bottom: 40px;
-	margin-top: 130px;
 	font-size: 100px;
 	color: #111517;
 	font-family: CenturyGothic, Verdana;
@@ -162,7 +160,7 @@ text-align: center;
 	text-align: center;
 	font-weight:700;
 	font-size:12px;
-	line-height:32px;
+	line-height:30px;
 	padding:0 15px;
 	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
 }
